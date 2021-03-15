@@ -1,0 +1,30 @@
+<h1>SIGNUP</h1>
+<h4>Passanger</h4>
+<div class="username input-form">
+    <input type="text" class="input" placeholder="Username">
+    <span class="logo-input">
+        <i class="fa fa-envelope"></i>
+    </span>
+</div>
+<div class="password input-form">
+    <input type="password" class="input" placeholder="Password">
+    <span class="logo-input">
+        <i class="fa fa-key"></i>
+    </span>
+</div>
+<div class="pin input-form">
+    <input type="password" class="input" placeholder="Pin">
+    <span class="logo-input">
+        <i class="fas fa-sort-numeric-up"></i>
+    </span>
+</div>
+<div class="submit">
+    <button [routerLink]="['/login']" routerLinkActive="router-link-active"  class="btn btn-secondary" type="button">
+        Submit
+    </button>
+</div>
+<div class="login">
+    <button [routerLink]="['/signup']" routerLinkActive="router-link-active"  class="btn btn-link" type="button">
+        <p>Already have account?</p>
+    </button>
+</div>

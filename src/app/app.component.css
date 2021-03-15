@@ -1,0 +1,19 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-color: #333333;
+}
+
+.card{
+    margin: 8% 0;
+    float: none;
+    margin-bottom: 10px;
+    width: 40%;
+    background-color: #555555;
+    border-radius: 10px !important; 
+}
+
+.card .card-body{
+    color: white;
+    text-align: center;
+    width: 65%;
+}
