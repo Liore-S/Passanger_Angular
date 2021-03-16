@@ -1,0 +1,25 @@
+<div class="logo">
+    <h2>Passanger</h2>
+</div>
+<div class="menus">
+    <div class="item">
+        <a [routerLink]="['/dashboard']" routerLinkActive="router-link-active"  class="menu-link active">
+            Dashboard
+            <i class="fas fa-caret-down"></i>
+        </a>
+        <div class="child">
+            <div class="item">
+                <a [routerLink]="['/routePath']" routerLinkActive="router-link-active"  class="menu-link"><p>Email</p></a>
+            </div>
+            <div class="item">
+                <a [routerLink]="['/routePath']" routerLinkActive="router-link-active"  class="menu-link"><p>Account</p></a>
+            </div>
+            <div class="item">
+                <a [routerLink]="['/routePath']" routerLinkActive="router-link-active"  class="menu-link"><p>Game Account</p></a>
+            </div>
+        </div>
+    </div>
+    <div class="item sub-menu">
+        <a [routerLink]="['/routePath']" routerLinkActive="router-link-active"  class="menu-link"><p>Settings</p></a>
+    </div>
+</div>

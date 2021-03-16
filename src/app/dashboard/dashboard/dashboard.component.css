@@ -1,0 +1,36 @@
+body{
+    background-color: #333;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#app{
+    display: flex;
+}
+
+#app #sidebar{
+    min-width: 200px;
+    background-color: #555555;
+    padding: 0 1rem;
+}
+
+#app #right{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #373737;
+}
+
+#app #right #main{
+    padding: 1rem;
+}
+
+#app #right #header{
+    width: calc(100% - 2rem);
+    margin: 0 1rem;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+
+    color: white;
+    border-bottom: 2px solid white;
+}

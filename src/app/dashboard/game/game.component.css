@@ -1,0 +1,64 @@
+.card{
+    border-radius: 10px !important;
+    background: transparent !important;
+    padding-bottom: 20px;
+}
+
+.card .card-body{
+    background-color: #494949;
+    border-radius: 10px;
+    color: white;
+}
+
+.table{
+    border-collapse: collapse;
+    border: none;
+
+}
+
+.table .tablehead .headcolor th{
+    color: #9A9A9A;
+}
+
+.tablebody .trbody{
+    background-color: #555555;
+    color: white;
+}
+
+.tablebody .trbody #id{
+    color: #9A9A9A;
+}
+
+.tablebody .trbody a{
+    color: #9A9A9A;
+}
+
+.tablebody .trbody .background{
+    background-color: #494949;
+    padding: 5px;
+    margin: -3px;
+}
+
+#id{
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.icon .fa-eye{
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.icon .fa-clipboard{
+    margin-bottom: 4px;
+    margin-right: 10px;
+}
+
+.icon .fa-sticky-note{
+    padding-top: 4px;
+    font-size: 25px;
+}
+
+.col .pass{
+    margin-top: 5px;
+}

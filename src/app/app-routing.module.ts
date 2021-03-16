@@ -13,6 +13,15 @@ const routes: Routes = [
     path:'signup',
     component:SignupComponent
   },
+  {
+    path:'dashboard',
+    loadChildren:()=>import('./dashboard/dashboard.module').then(mod=>mod.DashboardModule)
+  },
+  {
+    path:'',
+    pathMatch:'full',
+    redirectTo:'login'
+  }
 ];
 
 @NgModule({

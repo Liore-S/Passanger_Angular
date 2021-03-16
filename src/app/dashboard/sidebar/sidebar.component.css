@@ -1,0 +1,57 @@
+.logo{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid white;
+    color: #D4D4D4;
+    padding: 48px 0;
+}
+
+.menus{
+    margin-top: 1rem;
+}
+
+.menus .menu-link{
+    padding: 15px 20px;
+    display: block;
+    color: white;
+}
+
+.menus .child .menu-link p{
+    padding-left: 20px;
+    margin-bottom: -0px;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.menus .child{
+    margin-top: 0px;
+    background-color: #474747;
+    font-size: 13px;
+}
+
+.menus .item .active,
+.menus .child .item:hover{
+    background-color: #373737;
+
+}
+
+.menus .sub-menu{
+    margin-top: -5px;
+}
+
+.menus .sub-menu p{
+    margin-bottom: -0px;
+}
+
+.menus .sub-menu:hover{
+    background-color: #373737;
+}
+
+.menus .item{
+    margin-bottom: 5px;
+    width: 100%;
+}
