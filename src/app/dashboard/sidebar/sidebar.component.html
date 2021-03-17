@@ -9,13 +9,14 @@
         </a>
         <div class="child">
             <div class="item">
-                <a [routerLink]="['/routePath']" routerLinkActive="router-link-active"  class="menu-link"><p>Email</p></a>
+                <a [routerLink]="['/dashboard/email']" routerLinkActive="router-link-active"   class="menu-link"><p>Email</p></a>
             </div>
             <div class="item">
                 <a [routerLink]="['/routePath']" routerLinkActive="router-link-active"  class="menu-link"><p>Account</p></a>
             </div>
             <div class="item">
-                <a [routerLink]="['/routePath']" routerLinkActive="router-link-active"  class="menu-link"><p>Game Account</p></a>
+                <a [routerLink]="['/routePath']" routerLinkActive="router-link-active" [routerLinkActiveOptions]="{exact:
+                    true}" class="menu-link"><p>Game Account</p></a>
             </div>
         </div>
     </div>

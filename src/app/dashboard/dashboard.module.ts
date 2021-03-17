@@ -8,17 +8,23 @@ import { MainComponent } from './main/main.component';
 import { EmailComponent } from './email/email.component';
 import { AccountComponent } from './account/account.component';
 import { GameComponent } from './game/game.component';
+import { EmailFilterComponent } from './email-filter/email-filter.component';
 
 const routes: Routes = [
   {
     path:'',
     component:DashboardComponent,
+  },
+  {
+    path:'email',
+    component:EmailFilterComponent,
   }
+
 ]
 
 
 @NgModule({
-  declarations: [DashboardComponent, SidebarComponent, HeaderComponent, MainComponent, EmailComponent, AccountComponent, GameComponent],
+  declarations: [DashboardComponent, SidebarComponent, HeaderComponent, MainComponent, EmailComponent, AccountComponent, GameComponent, EmailFilterComponent],
   imports: [
     CommonModule,
     RouterModule.forChild(routes),

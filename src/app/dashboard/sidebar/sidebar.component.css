@@ -36,7 +36,10 @@ a{
 .menus .item .active,
 .menus .child .item:hover{
     background-color: #373737;
+}
 
+.router-link-active{
+    background-color: #373737;
 }
 
 .menus .sub-menu{
@@ -52,6 +55,6 @@ a{
 }
 
 .menus .item{
-    margin-bottom: 5px;
+    
     width: 100%;
 }
